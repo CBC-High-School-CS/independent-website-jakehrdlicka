@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RevCompare – Compare</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>RevCompare</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="compare.html">Compare</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Compare Cars</h2>
+    <div class="buttons">
+      <button onclick="toggleCar('bmw')">BMW M3</button>
+      <button onclick="toggleCar('audi')">Audi RS5</button>
+      <button onclick="toggleCar('tesla')">Tesla Model 3 Perf</button>
+      <button onclick="toggleCar('mustang')">Mustang GT</button>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Spec</th>
+            <th class="bmw">BMW M3</th>
+            <th class="audi">Audi RS5</th>
+            <th class="tesla">Tesla Model 3 Perf</th>
+            <th class="mustang">Mustang GT</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Engine</td>
+            <td class="bmw">3.0L I6 Twin Turbo</td>
+            <td class="audi">2.9L V6 Twin Turbo</td>
+            <td class="tesla">Dual Electric Motors</td>
+            <td class="mustang">5.0L V8</td>
+          </tr>
+          <tr>
+            <td>0-60 mph</td>
+            <td class="bmw">3.8 sec</td>
+            <td class="audi">3.7 sec</td>
+            <td class="tesla">3.1 sec</td>
+            <td class="mustang">4.2 sec</td>
+          </tr>
+          <tr>
+            <td>Horsepower</td>
+            <td class="bmw">473 hp</td>
+            <td class="audi">444 hp</td>
+            <td class="tesla">500+ hp</td>
+            <td class="mustang">450 hp</td>
+          </tr>
+          <tr>
+            <td>Torque</td>
+            <td class="bmw">406 lb-ft</td>
+            <td class="audi">443 lb-ft</td>
+            <td class="tesla">471 lb-ft</td>
+            <td class="mustang">410 lb-ft</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 RevCompare</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
